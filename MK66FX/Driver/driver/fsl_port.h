@@ -10,6 +10,6 @@
 #define __SIM_PORTE_CLK_ENABLE()	SIM_SCGC5_REG(SIM) |= SIM_SCGC5_PORTE_MASK
 
 
-uint8_t port_init(PORT_Type *PORTn,uint32_t pin,uint16_t ALTn);
+uint8_t     port_init   (PORT_Type *PORTn,uint32_t pin,uint16_t ALTn);
 
 #endif

@@ -2,6 +2,7 @@
 ".\objects\startup_mk66f18.o"
 ".\objects\system_mk66f18.o"
 ".\objects\fsl_port.o"
+".\objects\fsl_gpio.o"
 ".\objects\main.o"
 --library_type=microlib --strict --scatter ".\Objects\Kinetis_k66.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
