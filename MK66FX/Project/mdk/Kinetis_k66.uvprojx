@@ -337,7 +337,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\Driver\driver;..\..\Driver\system;..\..\Driver\hardware;..\..\User</IncludePath>
+              <IncludePath>..\..\Driver\driver;..\..\Driver\system;..\..\Driver\hardware;..\..\User;..\..\Driver\Include</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -400,6 +400,18 @@
         </Group>
         <Group>
           <GroupName>Driver/driver</GroupName>
+          <Files>
+            <File>
+              <FileName>fsl_port.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Driver\driver\fsl_port.c</FilePath>
+            </File>
+            <File>
+              <FileName>fsl_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\Driver\driver\fsl_gpio.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>user</GroupName>

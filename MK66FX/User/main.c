@@ -1,7 +1,9 @@
-#include "MK66F18.h"
+#include "FSL_COMMON.H"
 
 int main(void) 
 {
-
+	
+	
+	while(1);
 
 }

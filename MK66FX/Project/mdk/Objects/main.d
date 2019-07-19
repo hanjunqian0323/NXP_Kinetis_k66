@@ -1,1 +1,11 @@
 .\objects\main.o: ..\..\User\main.c
+.\objects\main.o: ..\..\Driver\driver\FSL_COMMON.H
+.\objects\main.o: ..\..\Driver\system\MK66F18.h
+.\objects\main.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\main.o: ..\..\Driver\Include\core_cm4.h
+.\objects\main.o: ..\..\Driver\Include\cmsis_version.h
+.\objects\main.o: ..\..\Driver\Include\cmsis_compiler.h
+.\objects\main.o: ..\..\Driver\Include\cmsis_armcc.h
+.\objects\main.o: ..\..\Driver\system\system_MK66F18.h
+.\objects\main.o: ..\..\Driver\driver\fsl_port.h
+.\objects\main.o: ..\..\Driver\driver\FSL_COMMON.H

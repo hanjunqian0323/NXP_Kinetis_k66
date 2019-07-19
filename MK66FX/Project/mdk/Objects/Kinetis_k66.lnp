@@ -1,0 +1,9 @@
+--cpu=Cortex-M4.fp
+".\objects\startup_mk66f18.o"
+".\objects\system_mk66f18.o"
+".\objects\fsl_port.o"
+".\objects\main.o"
+--library_type=microlib --strict --scatter ".\Objects\Kinetis_k66.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\Kinetis_k66.map" -o .\Objects\Kinetis_k66.axf

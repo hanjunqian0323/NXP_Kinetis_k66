@@ -1,0 +1,15 @@
+#ifndef __fsl_port_h
+#define __fsl_port_h
+
+#include "FSL_COMMON.H"
+
+#define __SIM_PORTA_CLK_ENABLE()	SIM_SCGC5_REG(SIM) |= SIM_SCGC5_PORTA_MASK
+#define __SIM_PORTB_CLK_ENABLE()	SIM_SCGC5_REG(SIM) |= SIM_SCGC5_PORTB_MASK
+#define __SIM_PORTC_CLK_ENABLE()	SIM_SCGC5_REG(SIM) |= SIM_SCGC5_PORTC_MASK
+#define __SIM_PORTD_CLK_ENABLE()	SIM_SCGC5_REG(SIM) |= SIM_SCGC5_PORTD_MASK
+#define __SIM_PORTE_CLK_ENABLE()	SIM_SCGC5_REG(SIM) |= SIM_SCGC5_PORTE_MASK
+
+
+uint8_t port_init(PORT_Type *PORTn,uint32_t pin,uint16_t ALTn);
+
+#endif
