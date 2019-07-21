@@ -1,6 +1,3 @@
-
-
-
 #include "fsl_gpio.h"
 
 /*

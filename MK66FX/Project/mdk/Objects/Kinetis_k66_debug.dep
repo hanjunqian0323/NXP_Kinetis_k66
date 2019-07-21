@@ -8,9 +8,9 @@ I (..\..\Driver\Include\cmsis_version.h)(0x5D31D2DA)
 I (..\..\Driver\Include\cmsis_compiler.h)(0x5D31D2DA)
 I (..\..\Driver\Include\cmsis_armcc.h)(0x5D31D2DA)
 I (..\..\Driver\system\system_MK66F18.h)(0x5D31D2DA)
-F (..\..\Driver\driver\fsl_port.c)(0x5D31DAD7)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Driver\driver -I ..\..\Driver\system -I ..\..\Driver\hardware -I ..\..\User -I ..\..\Driver\Include-I.\RTE\_debug-Ie:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DMK66FX1M0xxx18-o .\objects\fsl_port.o --omf_browse .\objects\fsl_port.crf --depend .\objects\fsl_port.d)
-I (..\..\Driver\driver\fsl_port.h)(0x5D31DAA1)
-I (..\..\Driver\driver\FSL_COMMON.H)(0x5D31D2DA)
+F (..\..\Driver\driver\fsl_port.c)(0x5D33B9B4)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Driver\driver -I ..\..\Driver\system -I ..\..\Driver\hardware -I ..\..\User -I ..\..\Driver\Include-I.\RTE\_debug-Ie:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DMK66FX1M0xxx18-o .\objects\fsl_port.o --omf_browse .\objects\fsl_port.crf --depend .\objects\fsl_port.d)
+I (..\..\Driver\driver\fsl_port.h)(0x5D33BC52)
+I (..\..\Driver\driver\FSL_COMMON.H)(0x5D33BAAE)
 I (..\..\Driver\system\MK66F18.h)(0x5D31D2DA)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 I (..\..\Driver\Include\core_cm4.h)(0x5D31D2DA)
@@ -19,9 +19,10 @@ I (..\..\Driver\Include\cmsis_compiler.h)(0x5D31D2DA)
 I (..\..\Driver\Include\cmsis_armcc.h)(0x5D31D2DA)
 I (..\..\Driver\system\system_MK66F18.h)(0x5D31D2DA)
 I (..\..\Driver\driver\fsl_gpio.h)(0x5D31DA96)
-F (..\..\Driver\driver\fsl_gpio.c)(0x5D31DAB7)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Driver\driver -I ..\..\Driver\system -I ..\..\Driver\hardware -I ..\..\User -I ..\..\Driver\Include-I.\RTE\_debug-Ie:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DMK66FX1M0xxx18-o .\objects\fsl_gpio.o --omf_browse .\objects\fsl_gpio.crf --depend .\objects\fsl_gpio.d)
+I (..\..\Driver\driver\fsl_uart.h)(0x5D33BAA1)
+F (..\..\Driver\driver\fsl_gpio.c)(0x5D33BA57)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Driver\driver -I ..\..\Driver\system -I ..\..\Driver\hardware -I ..\..\User -I ..\..\Driver\Include-I.\RTE\_debug-Ie:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DMK66FX1M0xxx18-o .\objects\fsl_gpio.o --omf_browse .\objects\fsl_gpio.crf --depend .\objects\fsl_gpio.d)
 I (..\..\Driver\driver\fsl_gpio.h)(0x5D31DA96)
-I (..\..\Driver\driver\FSL_COMMON.H)(0x5D31D2DA)
+I (..\..\Driver\driver\FSL_COMMON.H)(0x5D33BAAE)
 I (..\..\Driver\system\MK66F18.h)(0x5D31D2DA)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 I (..\..\Driver\Include\core_cm4.h)(0x5D31D2DA)
@@ -29,9 +30,22 @@ I (..\..\Driver\Include\cmsis_version.h)(0x5D31D2DA)
 I (..\..\Driver\Include\cmsis_compiler.h)(0x5D31D2DA)
 I (..\..\Driver\Include\cmsis_armcc.h)(0x5D31D2DA)
 I (..\..\Driver\system\system_MK66F18.h)(0x5D31D2DA)
-I (..\..\Driver\driver\fsl_port.h)(0x5D31DAA1)
+I (..\..\Driver\driver\fsl_port.h)(0x5D33BC52)
+I (..\..\Driver\driver\fsl_uart.h)(0x5D33BAA1)
+F (..\..\Driver\driver\fsl_uart.c)(0x5D33BC54)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Driver\driver -I ..\..\Driver\system -I ..\..\Driver\hardware -I ..\..\User -I ..\..\Driver\Include-I.\RTE\_debug-Ie:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DMK66FX1M0xxx18-o .\objects\fsl_uart.o --omf_browse .\objects\fsl_uart.crf --depend .\objects\fsl_uart.d)
+I (..\..\Driver\driver\fsl_uart.h)(0x5D33BAA1)
+I (..\..\Driver\driver\FSL_COMMON.H)(0x5D33BAAE)
+I (..\..\Driver\system\MK66F18.h)(0x5D31D2DA)
+I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
+I (..\..\Driver\Include\core_cm4.h)(0x5D31D2DA)
+I (..\..\Driver\Include\cmsis_version.h)(0x5D31D2DA)
+I (..\..\Driver\Include\cmsis_compiler.h)(0x5D31D2DA)
+I (..\..\Driver\Include\cmsis_armcc.h)(0x5D31D2DA)
+I (..\..\Driver\system\system_MK66F18.h)(0x5D31D2DA)
+I (..\..\Driver\driver\fsl_port.h)(0x5D33BC52)
+I (..\..\Driver\driver\fsl_gpio.h)(0x5D31DA96)
 F (..\..\User\main.c)(0x5D31D2DA)(--c99 --gnu -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\Driver\driver -I ..\..\Driver\system -I ..\..\Driver\hardware -I ..\..\User -I ..\..\Driver\Include-I.\RTE\_debug-Ie:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-IE:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="525" -DMK66FX1M0xxx18-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\..\Driver\driver\FSL_COMMON.H)(0x5D31D2DA)
+I (..\..\Driver\driver\FSL_COMMON.H)(0x5D33BAAE)
 I (..\..\Driver\system\MK66F18.h)(0x5D31D2DA)
 I (E:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599ECD2E)
 I (..\..\Driver\Include\core_cm4.h)(0x5D31D2DA)
@@ -39,5 +53,6 @@ I (..\..\Driver\Include\cmsis_version.h)(0x5D31D2DA)
 I (..\..\Driver\Include\cmsis_compiler.h)(0x5D31D2DA)
 I (..\..\Driver\Include\cmsis_armcc.h)(0x5D31D2DA)
 I (..\..\Driver\system\system_MK66F18.h)(0x5D31D2DA)
-I (..\..\Driver\driver\fsl_port.h)(0x5D31DAA1)
+I (..\..\Driver\driver\fsl_port.h)(0x5D33BC52)
 I (..\..\Driver\driver\fsl_gpio.h)(0x5D31DA96)
+I (..\..\Driver\driver\fsl_uart.h)(0x5D33BAA1)

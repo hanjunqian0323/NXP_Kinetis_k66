@@ -10,3 +10,4 @@
 .\objects\main.o: ..\..\Driver\driver\fsl_port.h
 .\objects\main.o: ..\..\Driver\driver\FSL_COMMON.H
 .\objects\main.o: ..\..\Driver\driver\fsl_gpio.h
+.\objects\main.o: ..\..\Driver\driver\fsl_uart.h
