@@ -4,6 +4,7 @@
 #include "MK66F18.h"
 #include "fsl_port.h"
 #include "fsl_gpio.h"
+#include "fsl_uart.h"
 
 #define SUCCEED 1
 #define FALSE 	0
