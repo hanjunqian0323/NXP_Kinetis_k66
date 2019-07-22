@@ -411,11 +411,6 @@
               <FileType>1</FileType>
               <FilePath>..\..\Driver\driver\fsl_gpio.c</FilePath>
             </File>
-            <File>
-              <FileName>fsl_uart.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Driver\driver\fsl_uart.c</FilePath>
-            </File>
           </Files>
         </Group>
         <Group>
