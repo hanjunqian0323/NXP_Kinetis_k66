@@ -9,3 +9,5 @@
 .\objects\fsl_port.o: ..\..\Driver\Include\cmsis_armcc.h
 .\objects\fsl_port.o: ..\..\Driver\system\system_MK66F18.h
 .\objects\fsl_port.o: ..\..\Driver\driver\fsl_port.h
+.\objects\fsl_port.o: ..\..\Driver\driver\fsl_gpio.h
+.\objects\fsl_port.o: ..\..\Driver\driver\FSL_COMMON.H

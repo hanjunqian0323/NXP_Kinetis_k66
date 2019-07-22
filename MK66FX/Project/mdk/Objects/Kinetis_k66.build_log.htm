@@ -22,16 +22,21 @@ Dialog DLL:      TCM.DLL V1.35.1.0
  
 <h2>Project:</h2>
 F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\mdk\Kinetis_k66.uvprojx
-Project File Date:  07/19/2019
+Project File Date:  07/22/2019
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'debug'
-compiling main.c...
 compiling fsl_port.c...
+compiling fsl_gpio.c...
+..\..\Driver\driver\fsl_gpio.c(25): warning:  #940-D: missing return statement at end of non-void function "gpio_init" 
+  }
+..\..\Driver\driver\fsl_gpio.c: 1 warning, 0 errors
+compiling fsl_uart.c...
+compiling main.c...
 linking...
 Program Size: Code=192 RO-data=1040 RW-data=0 ZI-data=1024  
-".\Objects\Kinetis_k66.axf" - 0 Error(s), 0 Warning(s).
+".\Objects\Kinetis_k66.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -45,7 +50,7 @@ Package Vendor: Keil
   D:\Keil_v5\ARM\PACK\Keil\Kinetis_K60_DFP\1.5.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:07
+Build Time Elapsed:  00:00:16
 </pre>
 </body>
 </html>
