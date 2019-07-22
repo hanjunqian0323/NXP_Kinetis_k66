@@ -1,13 +1,33 @@
-"C:\Users\solawc\Desktop\MK66FX\User\main.c"
+"F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\User\main.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\solawc\Desktop\MK66FX\User
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\User
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\..\..\Driver\driver
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\..\..\Driver\hardware
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\..\..\Driver\Include
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\..\..\Driver\system
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\..\..\User
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc
 -I
 D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\arm\inc\c
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Driver\driver
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Driver\hardware
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Driver\Include
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Driver\system
+-I
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\User
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

@@ -1,0 +1,201 @@
+###############################################################################
+#
+# IAR ELF Linker V8.32.3.193/W32 for ARM                  22/Jul/2019  17:32:44
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  
+#        F:\MY
+#        DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\Exe\Kinetis_k66.out
+#    Map file     =  
+#        F:\MY
+#        DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\List\Kinetis_k66.map
+#    Command line =  
+#        -f C:\Users\solawc\AppData\Local\Temp\EW8F6F.tmp ("F:\MY
+#        DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\Obj\main.o"
+#        "F:\MY
+#        DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\Obj\startup_MK66F18.o"
+#        "F:\MY
+#        DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\Obj\system_MK66F18.o"
+#        --no_out_extension -o "F:\MY
+#        DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\Exe\Kinetis_k66.out"
+#        --map "F:\MY
+#        DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\List\Kinetis_k66.map"
+#        --config "D:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.2\arm\config\linker\NXP\MK66xX1M_18.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x0 { ro section .intvec };
+"P2":  place in [from 0x0 to 0x3ff] |
+                [from 0x410 to 0xf'ffff] |
+                [from 0x1000'0000 to 0x1003'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 16K, alignment = 8 { };
+"P3":  place in [from 0x1fff'0000 to 0x1fff'ffff] |
+                [from 0x2000'0000 to 0x2002'ffff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw                   in "P3"
+  section .flex_ram    in "P4"
+  section FlashConfig  in "P1"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                               0x5c
+  .intvec   ro code          0x0    0x5c  startup_MK66F18.o [1]
+                          - 0x5c    0x5c
+
+"P2":                               0xec
+  .text     ro code         0x5c    0x30  system_MK66F18.o [1]
+  .text     ro code         0x8c    0x22  fpinit_M.o [3]
+  .text     ro code         0xb0    0x1e  cmain.o [4]
+  .text     ro code         0xce     0x4  low_level_init.o [2]
+  .text     ro code         0xd2     0x2  main.o [1]
+  .text     ro code         0xd4     0x4  exit.o [2]
+  .text     ro code         0xd8     0xa  cexit.o [4]
+  .text     ro code         0xe4    0x14  exit.o [5]
+  .text     ro code         0xf8     0xc  cstartup_M.o [4]
+  .text     ro code        0x104     0x8  startup_MK66F18.o [1]
+  .text     ro code        0x10c     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x110     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x114     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x118     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x11c     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x120     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x124     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x128     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x12c     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x130     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x134     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x138     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x13c     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x140     0x4  startup_MK66F18.o [1]
+  .text     ro code        0x144     0x4  startup_MK66F18.o [1]
+                         - 0x148    0xec
+
+"P3":                             0x2000
+  CSTACK             0x1fff'0000  0x2000  <Block>
+    CSTACK  uninit   0x1fff'0000  0x2000  <Block tail>
+                   - 0x1fff'2000  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x148        0x3ff     0x2b8
+        0x410     0xf'ffff  0xf'fbf0
+  0x1000'0000  0x1003'ffff  0x4'0000
+  0x1fff'2000  0x1fff'ffff    0xe000
+  0x2000'0000  0x2002'ffff  0x3'0000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module             ro code  rw data
+    ------             -------  -------
+command line/config:
+    -----------------------------------
+    Total:
+
+F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\Obj: [1]
+    main.o                   2
+    startup_MK66F18.o      160
+    system_MK66F18.o        48
+    -----------------------------------
+    Total:                 210
+
+dl7M_tln.a: [2]
+    exit.o                   4
+    low_level_init.o         4
+    -----------------------------------
+    Total:                   8
+
+m7M_tls.a: [3]
+    fpinit_M.o              34
+    -----------------------------------
+    Total:                  34
+
+rt7M_tl.a: [4]
+    cexit.o                 10
+    cmain.o                 30
+    cstartup_M.o            12
+    -----------------------------------
+    Total:                  52
+
+shb_l.a: [5]
+    exit.o                  20
+    -----------------------------------
+    Total:                  20
+
+    Gaps                     4
+    Linker created                8 192
+---------------------------------------
+    Grand Total:           328    8 192
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+?main                        0xb1        Code  Gb  cmain.o [4]
+CSTACK$$Base          0x1fff'0000         --   Gb  - Linker created -
+CSTACK$$Limit         0x1fff'2000         --   Gb  - Linker created -
+Region$$Table$$Base           0x0         --   Gb  - Linker created -
+Region$$Table$$Limit          0x0         --   Gb  - Linker created -
+SystemInit                   0x5d  0x22  Code  Gb  system_MK66F18.o [1]
+__cmain                      0xb1        Code  Gb  cmain.o [4]
+__exit                       0xe5  0x14  Code  Gb  exit.o [5]
+__iar_init_vfp               0x8d        Code  Gb  fpinit_M.o [3]
+__iar_program_start          0xf9        Code  Gb  cstartup_M.o [4]
+__low_level_init             0xcf   0x4  Code  Gb  low_level_init.o [2]
+__vector_table                0x0        Data  Gb  startup_MK66F18.o [1]
+_call_main                   0xbd        Code  Gb  cmain.o [4]
+_exit                        0xd9        Code  Gb  cexit.o [4]
+_main                        0xcb        Code  Gb  cmain.o [4]
+exit                         0xd5   0x4  Code  Gb  exit.o [2]
+main                         0xd3   0x2  Code  Gb  main.o [1]
+
+
+[1] = F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+    328 bytes of readonly  code memory
+  8 192 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

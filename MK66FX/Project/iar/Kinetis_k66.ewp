@@ -345,7 +345,11 @@
                 </option>
                 <option>
                     <name>CCIncludePath2</name>
-                    <state></state>
+                    <state>$PROJ_DIR$\..\..\Driver\driver</state>
+                    <state>$PROJ_DIR$\..\..\Driver\hardware</state>
+                    <state>$PROJ_DIR$\..\..\Driver\Include</state>
+                    <state>$PROJ_DIR$\..\..\Driver\system</state>
+                    <state>$PROJ_DIR$\..\..\User</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>

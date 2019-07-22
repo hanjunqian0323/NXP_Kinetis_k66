@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\solawc\Desktop\MK66FX\Project\iar\settings\Kinetis_k66.Debug.general.xcl" --backend -f "C:\Users\solawc\Desktop\MK66FX\Project\iar\settings\Kinetis_k66.Debug.driver.xcl" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\settings\Kinetis_k66.Debug.general.xcl" --backend -f "F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\settings\Kinetis_k66.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "C:\Users\solawc\Desktop\MK66FX\Project\iar\settings\Kinetis_k66.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\solawc\Desktop\MK66FX\Project\iar\settings\Kinetis_k66.Debug.driver.xcl" 
+"D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\settings\Kinetis_k66.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\MY DESKTOP\gitdemo\NXP_Kinetis_k66\MK66FX\Project\iar\settings\Kinetis_k66.Debug.driver.xcl" 
 
 @echo off 
 :end
